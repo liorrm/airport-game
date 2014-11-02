@@ -101,12 +101,8 @@ var crash = function(object) {
 }
 
 var playVideo = function() {
-  document.getElementById("container").innerHTML = "
-    <video width="320" height="240" controls>
-      <source src="movie.mp4" type="video/mp4">
-      Your browser does not support the video tag.
-    </video>
-  "
+  video = "<video autoplay><source src='img/takeoff.mp4' type='video/mp4'>Your browser does not support the video tag.</video>"
+  document.getElementById("container").innerHTML = video
 }
 
 airbus.addEventListener('click', clearWay)
