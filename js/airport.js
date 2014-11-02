@@ -26,7 +26,6 @@ var park = function(newLeftValue, newTopValue) {
   }
 }
 
-
 var move = function(e) {
   if (boeingData.fuelLevel > 0 && (e.keyCode === 39) && (parseInt(window.getComputedStyle(boeing).top)) > 300 && (parseInt(window.getComputedStyle(boeing).top)) <= 400 && (parseInt(window.getComputedStyle(boeing).left)) > 850 && boeingData.parked === true && airbusData.inWay === false) {
 
