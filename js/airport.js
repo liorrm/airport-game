@@ -1,23 +1,20 @@
-var boeingRelativePosTop = 305
-var boeingRelativePosLeft = 50
-
-var boeing = document.getElementById("boeing");
-var terminal = document.getElementById("terminal");
-var runway = document.getElementById("runway");
-var airbus = document.getElementById("airbus");
+var boeing      = document.getElementById("boeing");
+var airbus      = document.getElementById("airbus");
+var runway      = document.getElementById("runway");
+var terminal    = document.getElementById("terminal");
 var endOfRunway = document.getElementById("endOfRunway");
+var boeingImg   = document.getElementById("boeingImg");
 
-var boeing = {
+var boeingData = {
   name: "Boeing 747-400",
   fuelLevel: 100,
   parked: false,
-  crashed: false
 }
 
-var airbus = {
-  fuelLevel: 100
+var airbusData = {
+  fuelLevel: 100,
   name: "Airbus A320",
-  inWay: true
+  inWay: false
 }
 
 function move(e) {
