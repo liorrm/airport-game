@@ -1,0 +1,46 @@
+#container {
+  height: 100%;
+  width: 100%;
+  background-color: rgb(190, 190, 190);
+  position: fixed;
+  margin: auto;
+  text-align: center;
+}
+
+
+#airport {
+  background-color: rgb(100, 100, 100);
+  height: 100%;
+  width: 100%;
+}
+
+
+#runway {
+  position: fixed;
+  top: 300px;
+  left: 30px;
+}
+
+#boeing {
+position: fixed;top: 305px;
+left: 50px;
+}
+
+#terminal {
+  position: fixed;
+  top: 40px;
+  left: 600px;
+}
+
+#airbus {
+  position: fixed;
+  right: 150px;
+  top: 320px;
+}
+
+#endOfRunway {
+  position: fixed;
+  top: 320px;
+  right: 10px;
+  background-color: rgba(200, 100, 100);
+}
