@@ -6,14 +6,12 @@ var endOfRunway = document.getElementById("endOfRunway");
 var boeingImg   = document.getElementById("boeingImg");
 
 var boeingData = {
-  name: "Boeing 747-400",
   fuelLevel: 100,
-  parked: false,
+  parked: false
 }
 
 var airbusData = {
   fuelLevel: 100,
-  name: "Airbus A320",
   inWay: false
 }
 
